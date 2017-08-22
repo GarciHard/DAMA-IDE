@@ -1,0 +1,16 @@
+clase {
+	int $a=1;
+	int $b=10;
+
+	si($a<$b){
+		escribir("entro_al_si");
+		escribir("a_es_menor");
+		
+		mientras($b>$a){
+			escribir("mientras");
+			$a=$a+1;
+		}
+		escribir("termino_mientras");
+	}
+	escribir("a_no_es_menor");
+}

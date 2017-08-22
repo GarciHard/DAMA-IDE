@@ -1,0 +1,19 @@
+clase {
+   ent x = 2;
+   met cadena(){
+         escribir("hola":"mundo":x);
+         para(ent i=0;i<=3;i++){
+            cad c = "valor: ";
+         }
+         retornar cadena;
+      }
+      vacio entero(){
+         hacerM{
+            escribir("ciclo.."); 
+         }(x!=1);
+      }
+   principal{
+      x= y*z/2+j-w;
+	  y++;
+   }
+}

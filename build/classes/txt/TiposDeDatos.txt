@@ -1,0 +1,3 @@
+10int
+11doble
+12cad

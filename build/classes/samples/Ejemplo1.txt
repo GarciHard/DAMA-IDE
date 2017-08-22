@@ -1,0 +1,14 @@
+clase hola {
+  ent x = 1;
+  principal {
+  si(x==2) {
+    doble a = 4.0;
+  } sino {
+      cad b= "hola mundo";
+  }
+  hacerM(a != b){
+    leer();
+    escribir();
+  }
+  }
+}

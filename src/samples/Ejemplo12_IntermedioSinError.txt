@@ -1,0 +1,22 @@
+clase{
+	ent $x;
+	ent $e;
+	ent $a;
+	ent $c;
+
+	hacerM{
+		escribir("10");
+		$e = 8-5+7/8*9-5+5-9+2+7/1;
+	}mientras($x<$e);
+	escribir("20");
+	para(ent $x = 1; $x<1; $x++){
+		escribir("3040");
+		$a = 8*9+5-8+5-8-5/4+5/4+8-5/4;
+		si(1 < 8+7/4-5){
+			escribir("60");
+			$c = 9+8/7-5*4;
+		}
+		escribir("70");
+	}
+	escribir("50");
+}

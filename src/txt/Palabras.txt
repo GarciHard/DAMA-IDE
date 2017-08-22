@@ -1,0 +1,12 @@
+11doble
+10int
+12cad
+13leer
+14escribir
+16clase
+18si
+19mientras
+20hacerM
+21sino
+22para
+23retornar

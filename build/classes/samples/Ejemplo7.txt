@@ -1,0 +1,28 @@
+clase {
+	ent x;
+	ent ale=0;
+	cad y;
+	cad k="cadena2";
+	doble j;
+	doble l=9.8;
+
+	leer(j);
+	escribir("cadena");
+	mientras (x>y){
+		z=1*j;
+	}
+
+	hacerM{
+	 escribir(j);
+	}mientras (x<y);
+
+	para(ent i=0; i<30; i++){
+		z++;
+	}
+
+	si (j>l){
+		escribir("concatena":j);
+	}sino {
+		#comentario#
+	}
+}

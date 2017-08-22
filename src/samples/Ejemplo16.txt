@@ -1,0 +1,16 @@
+clase {
+	ent $a;
+	ent $b;
+	
+	para(ent $i=0; $i<10; $i++){
+		escribir("esteeselfor");
+	}
+	
+	mientras (1<10){
+		escribir("iniciamientras");
+		si($a<$b){
+			escribir("esteeselsi");
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+clase {
+	doble j;	
+	cad k="cadena2";
+	ent x;
+	cad y;
+	doble l=9.8;
+	cad ejem="ejemplodecadena";
+	ent z;
+	doble operacion=0;
+
+	leer(j);
+	escribir("cadena":k);
+
+	si (j>z){#aquinoidentificalostiposdedato#
+		operacion= j*z;
+		escribir("concatena":operacion);
+
+		hacerM{#nousadaperosiseusa#
+	 		escribir(ejem);
+		}mientras (x<z);#aquisiidentificalaincompatibilidad#
+
+	}sino {#todofuncionabien#
+		escribir(y);
+
+		mientras (x<z){ #aquinoidentificalostiposdedato#
+			para(ent i=0; i<30; i++){
+				z++;
+			}
+			l=l+2;
+		}
+	}
+}

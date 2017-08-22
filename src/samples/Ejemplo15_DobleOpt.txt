@@ -1,0 +1,25 @@
+clase {
+	doble $a;
+	ent $b;
+	doble $c;
+	ent $x;
+	ent $aux1;
+	ent $aux2;
+		escribir("programa_para_ver_si_ya_convencemos_al_profe");
+		si($aux1 != 0){
+			escribir("dentro_de_si");
+			$a = 8-5+7/8*9-5+5-9+2+7/174*47+47-37/7+77+10-48*200+3/4877;
+			mientras($aux2 < 2) {
+				escribir("ciclo_mientras");
+				para (ent $i = 0; $i < 10; $i++) {
+					$c = $x+1*$x+1*$x+1;
+					escribir("ciclo_para");
+				}
+				escribir("fin_ciclo_para_dentro_mientras");
+			}
+			escribir("fin_ciclo_mientras_dentro_si");
+		}
+		escribir("fuera_de_si");
+	$b = $x+1*0+2;
+	escribir("fin_programa");
+}

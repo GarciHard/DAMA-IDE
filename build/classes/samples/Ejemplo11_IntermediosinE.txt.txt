@@ -1,0 +1,27 @@
+clase {
+	doble $a=4.5;
+	ent $b = 3;
+	ent $c =1;
+	ent $y = 8;
+	doble $res;
+	ent $r;
+	ent $f;
+	
+	si($a >= $b){
+		hacerM{
+			$res = $c * $y / $a + $c;
+			si($b==$y){
+				para(ent $i=1; $a-$b<=10; $i++){
+					escribir("ciclofor");
+					mientras(7<$r){
+						escribir("mientras");
+					}
+				}
+				escribir("terminofor");
+			}
+			escribir("terminos1delsi");
+		}mientras(9.6*7/3 >= $f);
+		escribir("terminohacer");
+	}
+	escribir("terminosiprincipal");
+}

@@ -1,0 +1,11 @@
+clase {
+	ent $x;
+	ent $a;
+	ent $au;
+	mientras(1<2){
+		$x = $x+1*0+2;
+		si(1!=3) {
+			$a = $x+1/4*1+3;
+		}
+	}
+}

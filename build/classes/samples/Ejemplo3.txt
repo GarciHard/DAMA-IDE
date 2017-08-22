@@ -1,0 +1,13 @@
+clase hola {#inicio de programa#
+  int x = 1;
+  si(x==2) {
+    doble a = 4.0;
+  } else {
+      cad = "hola mundo";
+  }
+  hacerM(a != b){
+    leer();
+    escribir();
+  }
+  x=2+4-5-12*10.42/2;
+}

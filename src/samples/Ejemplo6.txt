@@ -1,0 +1,24 @@
+clase {
+	ent x;
+	doble y;
+	cad z="hola";
+	doble suma=0;
+	escribir("ingresa un numero");
+	leer(x);
+
+	si (x>9){
+		escribir("tu numeor es " : x);
+		suma = x + z;
+
+		mientras (suma != 100){
+			escribir ("suma" : suma);
+		}
+	}
+
+
+	para (ent i=0;i<20;i++){
+		doble divide=0;
+		divide = i / i+1;
+	}
+
+}

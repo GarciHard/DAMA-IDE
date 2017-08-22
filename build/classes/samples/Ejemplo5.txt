@@ -1,0 +1,33 @@
+clase {
+       ent x;
+       doble y=2.4; 
+       cad cadenae="ejemplo";
+
+   principal{
+	ent x;
+	doble y;
+	ent usada;
+	ent w;
+	
+	w = y * x;
+	doble suma;
+
+	leer(x);
+	leer(y);
+
+	si(x>y){
+	     suma2=x+y;
+	}sino {
+	       w=cadenae;
+	       para (ent i=0; i < z ;i++){
+
+	       suma = suma + w;
+	
+		}
+
+        doble divide;
+	divide = w/cadenae;
+       }
+    }
+
+}
